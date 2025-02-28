@@ -52,22 +52,19 @@ body{background:#fff; font:400 14px "Acherus Grotesque",sans-serif; color:#07222
 
 .nav ul li.menu-link a{color:#02feb5; border:1px solid #02feb5;}
 .nav ul li.menu-link a:hover{background:#02feb5; color:#000;}
-.banner{background:url(../images/hero1.jpg) no-repeat center top; background-size:cover; min-height:700px; align-items:center; display:flex;}
+.banner{background:url(../images/hero.jpg) no-repeat center top; background-size:cover; min-height:705px; align-items:center; display:flex;}
 
 .banner .row{align-items:center;}
-.banner h1{font-size:73px; color:#fff; font-weight:700; text-transform:uppercase; letter-spacing:10px; text-shadow:rgba(255,255,255,.5) 1px -1px 1px; position: relative;
-  animation-name: moveani; animation-duration:1.5s; animation-fill-mode: forwards;}
+.banner h1{font-size:73px; color:#fff; font-weight:700; text-transform:uppercase; letter-spacing:10px; text-shadow:rgba(0,0,0,.3) 2px 2px 10px; position: relative;
+  animation-name: moveani; animation-duration:1.5s;}
 .inner-banner{min-height:500px;}
 
 @keyframes moveani {
-  0%   {text-shadow:rgba(255,255,255,1) 00px 100px 0px; color:#0b2960;}
-  50% {text-shadow:rgba(255,255,255,1) 0px 50px 0px; color:#0b2960;}
-  99% {text-shadow:rgba(255,255,255,.8) 2px 2px 0px; ccolor:#0b2960;}
-  100% {text-shadow:rgba(0,0,0,.3) 1px 1px 10px; ccolor:#fff;}
+  0%   {text-shadow:rgba(0,0,0,1) 00px 100px 0px;}
+  50% {text-shadow:rgba(0,0,0,.3) 0px 50px 0px;}
+  100% {text-shadow:rgba(0,0,0,.3) 2px 2px 10px;}
 }
 
-.engraved{/*text-shadow: -1px -1px rgba(255,255,255,0.5), 1px 1px rgba(0,0,0,0.5);
-  color: rgba(255,255,255,0.5);*/ text-shadow: 1px 1px 5px rgba(255,255,255,.3), 1px -1px 11px rgba(0,0,0,.7);}
 .btn-primary{background:#e05a00; border:0; border-radius:5px!important; font-size:16px; font-weight:700; text-transform:uppercase; padding:12px 35px 15px; text-align:center; color:#fff;}
 .banner .btn{font-size:26px; letter-spacing:5px; padding:30px 50px; box-shadow:rgba(0,0,0,.3) 0 0 20px;}
 .btn-primary:hover{background:#082752;}
@@ -88,8 +85,6 @@ body{background:#fff; font:400 14px "Acherus Grotesque",sans-serif; color:#07222
 .item-center{align-items:center;}
 .justify-content{justify-content:center;}
 
-.seeSec{background:#fff url(../images/see-effect.jpg) repeat 0 0 fixed; background-size:cover;}
-.seeSec p{color:#000!important;}
 .whiteSec{padding:50px 0;}
 .welSec .container{background:#fff; box-shadow:rgba(0,0,0,.14)  0 0 30px; margin-top:-100px; padding-left:30px; position:relative; z-index:99999;}
 .videoSec{padding:30px 0; position:relative;}
@@ -183,16 +178,15 @@ body{background:#fff; font:400 14px "Acherus Grotesque",sans-serif; color:#07222
 .owl-controls .owl-page, .owl-controls .owl-buttons div {cursor: pointer;}
 
 
-ul.option{display:flex; flex-wrap:wrap; }
-ul.option li{background:#e05a00; width:24%;  text-align:center; border: 1px solid #ddd; margin:2px 2px;}
-ul.option li h5, ul.option li h6{color:#fff;font-family:"Acherus Grotesque"; font-size:18px; font-weight:700; ;}
-ul.option li p{padding:10px 0; font-size:20px; color:#fff;}
-ul.option li a{padding:20px 15px; font-size:20px; color:#fff; display:block;}
-ul.option li:hover{background:#212529;border-radius:10px; color:#FFFFFF; cursor:pointer;}
-ul.option li:hover p, ul.option li:hover h5, ul.option li:hover h6{color:#FFFFFF;}
+ul.option{display:flex; flex-wrap:wrap;}
+ul.option li{min-width:20%; padding:10px 20px; text-align:center;}
+ul.option li h5, ul.option li h6{font-family:"Acherus Grotesque"; font-size:18px; font-weight:700;}
+ul.option li p{padding:10px 0; font-size:20px; color:#000;}
+ul.option li:hover{background:#e05a00; border-radius:10px; color:#fff; cursor:pointer;}
+ul.option li:hover p, ul.option li:hover h5, ul.option li:hover h6{color:#fff;}
 h4.price{font:400 20px "Playfair Display"; color:#666;}
 h4.price strong{font:400 34px sans-serif;}
-.darkbox{border-radius:30px; padding:20px 0;}
+.darkbox{background:#eee; border-radius:30px; padding:20px;}
 .lb{font-size:18px; font-weight:bold; margin-bottom:0; color:#555;}
 .whitebox{background:#fff; padding:10px 20px 20px; box-shadow:rgba(0,0,0,.1) 0 0 10px; margin:10px 0;}
 .whitebox .lb{padding-top:0; margin-top:0;}
@@ -224,7 +218,7 @@ h4.price strong{font:400 34px sans-serif;}
 .gadget-box table td{font-size:16px; font-weight:500; color:#2d628f; border:0; padding:5px 10px;}
 .gadget-box table tr.total{border-top:1px solid #e8e8e8;}
 .gadget-box table tr.total strong{color:#e05a00; font-size:26px; font-weight:bold;}
-.cart-form label{color:#333; font-size:14px; font-weight:800; margin-bottom:0;}
+.cart-form label{color:#333; font-size:14px; font-weight:500; margin-bottom:0;}
 .form-control{height:50px; font-size:16px;}
 .form-group{padding-bottom:10px;}
 .gadget-box td{font-size:18px; font-weight:400; color:#727272; padding:5px 0;}
@@ -250,7 +244,7 @@ h4.price strong{font:400 34px sans-serif;}
 .padder{padding:5px 15px 15px;}
 
 .lightGraySec{padding:70px 0; background:#f3f3f3;}
-.item-row{padding:0px 40px 15px 0;}
+.item-row{border:1px solid #444; padding:20px 40px 15px; border-radius:300px; max-width:80%;}
 .darkbox p{font-size:26px; line-height:32px;}
 @media only screen and (max-width: 1200px){
 .container{padding-left:15px; padding-right:15px;}
@@ -328,20 +322,17 @@ span.fa-bars::before{display:none;}
 
 
 ul.option li{min-width:100%; padding:20px 0; border-bottom:1px solid #ddd;}
-
+ul.option li:last-child{border-bottom:0;}
 .header{background:rgba(0,0,0,.5); padding:12px 0;}
 .contactSec label{color:#fff;}
 .cart-form{padding:30px 20px;}
-.width80{width:100%;}
-.summary{order:1;}
-.textCall{order:2;}
 }
 
 @media only screen and (max-width: 500px){
-.banner{padding:40px 0;min-height:inherit;}
+.banner{padding:100px 0;}
 .contactSec .cover{padding:0 10px;}
 .common h2{font-size:24px;}
-.banner .btn{font-size:14px; padding:12px 15px; margin:20px 0;}
+.banner .btn{font-size:16px; padding:18px 25px;}
 .footer ul li a{margin-top:10px; margin-bottom:10px;}
 .inner-banner{min-height:inherit; padding:100px 0;}
 .width70{width:100%;}
@@ -349,10 +340,4 @@ ul.option li{min-width:100%; padding:20px 0; border-bottom:1px solid #ddd;}
 .item-row h1{font-size:30px;}
 .item-row .price{font-size:20px;}
 .item-row .price strong{font-size:24px;}
-.banner .padT7, .banner .padB7, .banner .marT7{padding-top:0!important; margin-top:0!important; padding-bottom:0!important;}
-.banner h1 {font-size: 25px;}
-.engraved{font-size:15px;}
-#cart-package{max-width:500px; overflow-x:scroll;}
-.gadget-box table th{padding: 10px 5px;
-line-height: 18px; font-size:14px;}
 }

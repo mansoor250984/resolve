@@ -2,7 +2,9 @@
 
 /* =Reset
 -------------------------------------------------------------- */
+
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,900' );
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
@@ -1797,7 +1799,6 @@ img#wpstats {
 .menu-bar {display: none;float: right;margin:0px 0px 0 20px;z-index: 9999;}
 .fa-bars {background:url("../images/navbar.png") no-repeat scroll center;cursor: pointer;display: none;height:35px;padding: 10px 12px;width:38px;}
 .overlay{width:100%; position:fixed;background:rgba(0,0,0,.5); height:100%; z-index:999; right:0px; top:0px; display:none;}
-.nav ul li a i{display:none;}
 .blueBox{margin-bottom:20px!important;}
 .footer{margin-top:20px!important;}
 .clm-1{width: 400px; padding-left: 40px;}

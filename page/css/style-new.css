@@ -62,7 +62,7 @@
     font-style: normal;
 }
 */
-
+a{color:#4c5a89;}
 
 .marT1{margin-top:5px;} .marT2{margin-top:10px;} .marT3{margin-top:15px;} .marT4{margin-top:20px;} .marT5{margin-top:25px;} .marT6{margin-top:30px;} .marT7{margin-top:40px;}
 .marB1{margin-bottom:5px;} .marB2{margin-bottom:10px;} .marB3{margin-bottom:15px;} .marB4{margin-bottom:20px;} .marB5{margin-bottom:25px;} .marB6{margin-bottom:30px;} .marB7{margin-bottom:40px;}
@@ -87,14 +87,14 @@ ol, ul{margin:0;}
 .header .logo-2 a{color:#0c4562;}
 .nav{background:#4c5a89; background-size: contain;}
 .nav ul{padding:0px;}
-.nav ul li{float:left; list-style:none; /*background:url(../images/seprater.png) no-repeat right top;*/ font-szie:15px; padding-right:0px; position:relative; border-right:1px solid #000027;}
+.nav ul li{float:left; list-style:none; /*background:url(../images/seprater.png) no-repeat right top;*/ font-szie:15px; padding-right:0px; position:relative; border-right:0px solid #000027;}
 .nav ul li:last-child{background:none; border-right:0px;}
-.nav ul li a{display:block; font-size:15px; font-weight:600; padding:18px 30px 18px 30px; color:#fff; text-shadow:#666 0px 0px 0px; text-decoration:none; text-transform:uppercase; letter-spacing:1px;}
-.nav ul li a:hover, .nav .current_page_item a, .nav ul li:hover{background:#4d4df5; color:#fff;}.nav ul li:hover{border-right:1px solid #055ca8;}
-.nav ul li ul{display:none; position:absolute; left:0px; top:54px; background:#4d4df5; width:275px; z-index:99999;}
-.nav ul li ul li{border-bottom:1px solid #0101a9; background:none; padding-right:0px; width:100%; border-right:0px;}
+.nav ul li a{display:block; font-size:15px; font-weight:600; padding:18px 29px 18px 28px; color:#fff; text-shadow:#666 0px 0px 0px; text-decoration:none; text-transform:uppercase; letter-spacing:1px;}
+.nav ul li a:hover, .nav .current_page_item a, .nav ul li:hover{background:#a3b8ce; color:#323f6a;}.nav ul li:hover{border-right:0px solid #055ca8;}
+.nav ul li ul{display:none; position:absolute; left:0px; top:54px; background:#a3b8ce; width:275px; z-index:99999;}
+.nav ul li ul li{border-bottom:1px solid #91a9c1; background:none; padding-right:0px; width:100%; border-right:0px;}
 .nav ul li ul li:hover{border-right:0px;}
-.nav ul li ul li a:hover{background:#0101a9;}
+.nav ul li ul li a:hover{background:#323f6a; color:#fff;}
 .nav ul li:hover ul{display:block;}
 
 .pagetitle{background:#eef9ff; border-bottom:1px solid #cfeaf9; padding:20px 30px; text-shadow:#fff 1px 1px; overflow:hidden;}
@@ -136,9 +136,11 @@ ol, ul{margin:0;}
 .contactBox{overflow:hidden; font-size:16px; color:#000; margin:0px auto;}
 .contactBox a{color:#000; text-decoration:none;} .contactBox a:hover{color:#06F;}
 .contactBox .call, .contactBox .email{line-height:19px;}
-.call{background:url(../images/call-icon.png) no-repeat left top;  padding:0px 15px 0px 40px; float:left; line-height:29px;}
+.call{padding:0px 15px 0px 0; float:left; line-height:29px;}
 .call small, .email small{display:block; line-height:15px; color:#666;}
-.email{background:url(../images/email-icon.png) no-repeat 15px top;  padding:0px 15px 0px 55px; float:left; margin:0px 15px 0 0px; border-left:1px dashed #09F; line-height:32px;}
+.email{ padding:0px 15px 0px 0; float:left; margin:0px 15px 0 0px; border-left:1px dashed #09F; line-height:32px;}
+.call .fa, .email .fa{font-size:30px; vertical-align:sub;}
+.header .logo-2 a{color:#4c5a89;} .header .logo-2 a:hover{color:#4d4df5; text-decoration:none;}
 .twit{background:url(../images/twitter-icon.png) no-repeat left top;  padding:0px 15px 0px 40px; float:left;}
 .text{text-align:center;  font:600 13px/20px 'open sans', Arial, Helvetica, sans-serif; color:#4c5a89; border-top: 1px dashed #09F; padding-top:10px; margin-top:10px;}
 .book{text-align:center; float:left; width:250px;}
@@ -176,8 +178,8 @@ blockquote span{display:block; color:#09F; font:normal 14px/18px 'open sans', Ar
 .book-text{ font:600 15px/22px 'open sans', Arial, Helvetica, sans-serif; color:#333;}
 .book-text span{color:#4c5a89; }
 .topper{ background:#eef9ff;  border-bottom: 1px solid #cfeaf9; color:#0c4562;font:600 16px/22px 'open sans', Arial, Helvetica, sans-serif; text-align:left; padding:5px 35px 5px; overflow:hidden;}.topper a{color:#0c4562; text-decoration:none;}
-.topper .call, .logo-2 .call{padding:5px 0px 5px 40px; float:right; line-height:22px;}
-.topper .email, .logo-2 .email{padding:5px 10px 5px 55px; float:right; border-left:0px; line-height:22px;}
+.topper .call, .logo-2 .call{padding:0px 0px 0px 40px; float:right; line-height:22px;}
+.topper .email, .logo-2 .email{padding:0px 10px 0px 0; float:right; border-left:0px; line-height:22px;}
 .video{padding:0px;}
 .video li{background:url(../images/video.png) no-repeat left top; padding:5px 0px 15px 40px; margin-top:10px; border-bottom:1px dashed #ddd; color:#0c4562;font:600 16px/22px 'open sans', Arial, Helvetica, sans-serif; list-style:none!important; margin-left:0px;}
 .video li a{color:#4c5a89; text-decoration:none;} .video li a:hover{color:#00F;}
@@ -243,8 +245,8 @@ blockquote span{display:block; color:#09F; font:normal 14px/18px 'open sans', Ar
 	.serviceList h3{line-height:22px!important; padding-bottom:10px;}
 	.serviceList ul{padding:0 0 0 20px; margin:0;}
 	.serviceList li{padding:0 0 0 5px; margin:0; font-size:15px;}
-	.btn{background:#0101ae; color:#fff!important; text-decoration:none; text-transform:uppercase; padding:20px 30px; font-size:14px!important; font-weight:bold; display:inline-block;}
-	.btn:hover{background:#06C; color:#fff;}
+	.btn{background:#4c5a89; color:#fff!important; text-decoration:none; text-transform:uppercase; padding:20px 30px; font-size:14px!important; font-weight:bold; display:inline-block;}
+	.btn:hover{background:#0101ae; color:#fff;}
 	
 .justify{justify-content: center;}	
 	.blueSec {
@@ -325,12 +327,18 @@ blockquote span{display:block; color:#09F; font:normal 14px/18px 'open sans', Ar
 	.col-6{width:40%;}
 	.col-5, .col-7{max-width:100%;flex:0 0 100%; padding:0;}
 	.staff-list li{flex:0 0 50%; max-width:50%;}
+	.header .logo img{max-width:235px;}
+	.entry-content h1, .comment-content h1{font-size:26px; line-height:1.3em;}
+	.sBox{max-width:90%; margin:10px auto;}
+	.lh2{font-size:26px!important; line-height:1.3em;}
 	}
-	@media screen and (max-width: 568px) {
+	@media screen and (max-width: 567px) {
 	.col-6{width:auto; float:none; margin-bottom:10px;}
 	.row{padding: 0 0;}
 	.staff-list li{flex:0 0 100%; max-width:100%;}
+	
 	}
+	
 	@media screen and (max-width: 375px) {
 		.padder{padding:30px 15px;}
 		.padder h1{font-size:24px; line-height:26px;}

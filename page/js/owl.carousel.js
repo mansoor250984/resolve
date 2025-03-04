@@ -1499,28 +1499,53 @@ if (typeof Object.create !== "function") {
 
 
  jQuery(document).ready(function($){
-      $("#owl-demo").owlCarousel({
+      $("#owl-demo1").owlCarousel({
       navigation : true,
       slideSpeed : 300,
       paginationSpeed : 400,
-      singleItem : false,
-	  items :5, //10 items above 1000px browser width
-	  itemsDesktop : [1024,4], //5 items between 1000px and 901px
-      itemsDesktopSmall : [900,3], // 3 items betweem 900px and 601px
-      itemsTablet: [600,2], //2 items between 600 and 0;
+      singleItem : true,
+	  items :1, //10 items above 1000px browser width
+	  itemsDesktop : [1024,1], //5 items between 1000px and 901px
+      itemsDesktopSmall : [900,1], // 3 items betweem 900px and 601px
+      itemsTablet: [600,1], //2 items between 600 and 0;
       itemsMobile : [400,1] // itemsMobile disabled - inherit from itemsTablet option
       });
     });
  
   jQuery(document).ready(function($){
-      $("#owl-demo1").owlCarousel({
+      $("#owl-demo0").owlCarousel({
       navigation : true,
       slideSpeed : 300,
       paginationSpeed : 400,
-      singleItem : true
+      singleItem : true,
+	  animateOut: 'fadeIn'
+	 // animateIn: 'fadeIn', // add this
+ // animateOut: 'fadeOut' // and this
 	  //items :5, 10 items above 1000px browser width
       });
     });
+  
+  
+  jQuery(document).ready(function($){
+          $("#owl-demo").owlCarousel({
+              navigation: true,
+              navigationText: ["<i class='fa fa-chevron-circle-left'></i>", "<i class='fa fa-chevron-circle-right'></i>"],
+              slideSpeed: 300,
+              paginationSpeed: 400,
+              autoPlay: false,
+              mouseDrag: true,
+              singleItem: true,
+			  //transitionStyle: "fadeIn",
+
+              animateIn: 'fadeIn',
+              animateOut: 'fadeOut'
+          });
+      });
+  
+  
+  
+  
+  
   
    jQuery(document).ready(function($){
       $("#owl-demo2").owlCarousel({

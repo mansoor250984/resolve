@@ -234,11 +234,11 @@ blockquote span{display:block; color:#09F; font:normal 14px/18px 'Nunito', Arial
 .sBox h5 {
   font-weight:600; font-family:"Playfair Display"; font-size:20px;
   text-transform:capitalize; line-height:1.4em;
-  color: #4c5a89;
+  color: #758BFD;
   padding: 25px 25px 10px;
 }
 .sBox ul{margin:0; padding:0 20px 0 5px;}
-.sBox ul li{font-size:17px; line-height:1.4em; padding-bottom:10px;}
+.sBox ul li{font-size:17px; line-height:1.4em; padding-bottom:10px; color:#27187E;}
 .chooseBox{background:#27187E url(https://cdn-icons-png.flaticon.com/512/1042/1042025.png) no-repeat 90% center; background-size: auto 85%; box-shadow: rgba(0,0,0,.2) 0 0 40px; border: 0px solid #fff; border-radius:0px; padding:40px; position:relative; overflow:hidden;}
 .chooseBox::before {
   content: "";

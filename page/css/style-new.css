@@ -45,7 +45,7 @@ ol, ul{margin:0;}
 .nav ul li a{display:block; font-size:15px; font-weight:700; padding:18px 33px 18px 34px; color:#28197e; text-decoration:none; text-transform:uppercase; letter-spacing:1px;}
 .nav ul li a:hover,  .nav ul li:hover{color:#fff;}.nav ul li:hover{border-right:0px solid #055ca8;}
 .nav .current_page_item a{color:#fff;}
-.nav ul li ul{display:none; position:absolute; left:0px; top:54px; background:#a3b8ce; width:275px; z-index:99999;}
+.nav ul li ul{display:none; position:absolute; left:0px; top:54px; background:#AEB8FE; width:275px; z-index:99999;}
 .nav ul li ul li{border-bottom:1px solid #91a9c1; background:none; padding-right:0px; width:100%; border-right:0px;}
 .nav ul li ul li a{font-size:17px; text-transform:inherit; font-weight:500; padding:13px 25px 13px 25px;}
 .nav ul li ul li:hover{border-right:0px;}

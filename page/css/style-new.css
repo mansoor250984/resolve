@@ -9,10 +9,11 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather:300,400,500,600,700,900 | Open+Sans:300,400,500,600,700,900 | Nunito: 300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Nunito:300,400,500,600,700,900');
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:300,400,500,600,700,900');
-
+@import url('https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700,900');
 
 
 a{color:#4c5a89;}
+a:hover{color:#FF8600; text-decoration:none;}
 a.orange:hover{color:#758BFD!important;}
 .marT1{margin-top:5px;} .marT2{margin-top:10px;} .marT3{margin-top:15px;} .marT4{margin-top:20px;} .marT5{margin-top:25px;} .marT6{margin-top:30px;} .marT7{margin-top:40px;}
 .marB1{margin-bottom:5px;} .marB2{margin-bottom:10px;} .marB3{margin-bottom:15px;} .marB4{margin-bottom:20px;} .marB5{margin-bottom:25px;} .marB6{margin-bottom:30px;} .marB7{margin-bottom:40px;}
@@ -200,9 +201,24 @@ blockquote span{display:block; color:#09F; font:normal 14px/18px 'Nunito', Arial
 	.serviceList h3{line-height:22px!important; padding-bottom:10px;}
 	.serviceList ul{padding:0 0 0 20px; margin:0;}
 	.serviceList li{padding:0 0 0 5px; margin:0; font-size:15px;}
-	.btn{background:#FF8600; color:#fff!important; text-decoration:none; text-transform:lowercase; padding:18px 30px; display:inline-block; border-radius:10px; letter-spacing:2px; font:600 20px Nunito!important;}
+	.btn{background:#FF8600; color:#fff!important; text-decoration:none; padding:18px 30px; display:inline-block; border-radius:10px; letter-spacing:2px; font:500 17px "Inter"!important; overflow: hidden; position:relative;}
 	.btn:hover{background:#758BFD; color:#fff;}
 	
+	
+	.btn::before {
+  content: ''; position: absolute; top: 0; height:100%;
+  background: #FF8600;
+  width: 120%;
+  left: -10%;
+  transform: skew(30deg);
+  transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+}
+.btn:hover::before {
+  transform: translate3d(100%,0,0);
+}	
+.btn span{position:relative; z-index:1;}
+
+	.inter{font-family:Inter!important;}
 .justify{justify-content: center;}	
 	.blueSec {
   background: #f5f7f8;

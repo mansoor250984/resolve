@@ -308,7 +308,7 @@ blockquote span{display:block; color:#09F; font:normal 14px/18px 'Nunito', Arial
 .owl-theme .owl-controls .owl-page span {background:#27187E;border-radius: 20px;display: block;height:10px;margin: 5px 3px;opacity:1;width:10px;}
 .owl-theme .owl-controls .owl-page {display: inline-block;}
 .owl-controls .owl-page, .owl-controls .owl-buttons div {cursor: pointer;}
-.slider{background-color:#f1f2f6!important; background-size:auto 100%; min-height:550px; padding:10px 0 20px;}
+.slider{background-color:#f1f2f6!important; background-size:auto 100%; min-height:550px; padding:10px 0 20px; position:relative; z-index:9999;}
 .slider1{background:url(../images/slider1.jpg) no-repeat right center;}
 .slider2{background:url(../images/slider2.jpg) no-repeat right center;}
 .slider3{background:url(../images/slider3.jpg) no-repeat right center;}
@@ -317,11 +317,12 @@ blockquote span{display:block; color:#09F; font:normal 14px/18px 'Nunito', Arial
 .slider6{background:url(../images/slider6.jpg) no-repeat right center;}
 .slider7{background:url(../images/slider7.jpg) no-repeat right center;}
 .slider8{background:url(../images/slider8.jpg) no-repeat right center;}
-.slider h1{font:700 60px/1.0em "Playfair Display"!important; color:#afb9ff; letter-spacing:2px;}
+.slider h1{font:700 60px/1.0em "Playfair Display"!important; color:#afb9ff; letter-spacing:2px; position:relative; z-index:999;}
 .slider h1 span{color:#27187d; display:block;}
-.slider p{font:400 22px Nunito; max-width:90%;} 
-#owl-demo .owl-controls{position:absolute; width:100%; bottom:70px;}
-#owl-demo .owl-buttons{position:absolute; width:100%; top: 7px; left: -90px; font-size:36px; color:#27187d;}
+.slider p{font:400 22px Nunito; max-width:90%; position:relative; z-index:999;} 
+.slider a{position:relative; z-index:999;}
+#owl-demo .owl-controls{position:absolute; width:100%; bottom:40px; z-index:0;}
+#owl-demo .owl-buttons{position:absolute; z-index:0; width:100%; top: 7px; left: -90px; font-size:36px; color:#27187d;}
 #owl-demo .owl-buttons .owl-prev, #owl-demo .owl-buttons .owl-next{display:inline-block;} 
 #owl-demo .owl-buttons .owl-prev:hover, #owl-demo .owl-buttons .owl-next:hover{color:#ff8600;}
 #owl-demo .owl-buttons .owl-next{left: 180px; position: relative;}

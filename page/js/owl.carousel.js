@@ -1532,7 +1532,7 @@ if (typeof Object.create !== "function") {
               navigationText: ["<i class='fa fa-chevron-circle-left'></i>", "<i class='fa fa-chevron-circle-right'></i>"],
               slideSpeed: 1200,
               paginationSpeed: 1600,
-              autoPlay: true,
+              autoPlay: 6500,
               mouseDrag: true,
               singleItem: true,
 			  //transitionStyle: "fadeIn",

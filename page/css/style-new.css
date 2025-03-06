@@ -13,7 +13,7 @@
 
 
 a{color:#4c5a89;}
-
+a.orange:hover{color:#758BFD!important;}
 .marT1{margin-top:5px;} .marT2{margin-top:10px;} .marT3{margin-top:15px;} .marT4{margin-top:20px;} .marT5{margin-top:25px;} .marT6{margin-top:30px;} .marT7{margin-top:40px;}
 .marB1{margin-bottom:5px;} .marB2{margin-bottom:10px;} .marB3{margin-bottom:15px;} .marB4{margin-bottom:20px;} .marB5{margin-bottom:25px;} .marB6{margin-bottom:30px;} .marB7{margin-bottom:40px;}
 .padT1{padding-top:5px;} .padT2{padding-top:10px;} .padT3{padding-top:15px;} .padT4{padding-top:20px;} .padT5{padding-top:25px;} .padT6{padding-top:30px;} .padT7{padding-top:40px;}

@@ -1530,9 +1530,9 @@ if (typeof Object.create !== "function") {
           $("#owl-demo").owlCarousel({
               navigation: true,
               navigationText: ["<i class='fa fa-chevron-circle-left'></i>", "<i class='fa fa-chevron-circle-right'></i>"],
-              slideSpeed: 900,
-              paginationSpeed: 1600,
-			  autoPlay: 6500,
+	      autoPlay: 6500,
+              slideSpeed: 900, 
+              paginationSpeed: 1600,	  
               mouseDrag: true,
               singleItem: true,
 			  //transitionStyle: "fadeIn",

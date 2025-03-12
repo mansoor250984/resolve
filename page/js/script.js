@@ -30,7 +30,7 @@ $(".popup .closeBtn").click(function(){
 });
 
 
-$(".mobile ul li a").click( function ( e ){ 
+$(".mobile ul li a.dmenu").click( function ( e ){ 
    e.preventDefault()
    $( this ).parent().find( ".sub-menu" ).toggle(500).toggleClass("hidden", 500) } )
 

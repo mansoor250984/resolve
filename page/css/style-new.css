@@ -261,7 +261,7 @@ blockquote span{display:block; color:#09F; font:normal 14px/18px 'Nunito', Arial
 .sBox h5:hover{color:#FF8600;}
 .sBox ul{margin:0; padding:0 20px 0 5px;}
 .sBox ul li{font-size:17px; line-height:1.4em; padding-bottom:10px; color:#27187E;}
-.chooseBox{background:#27187E url(https://cdn-icons-png.flaticon.com/512/1042/1042025.png) no-repeat 90% center; background-size: auto 85%; box-shadow: rgba(0,0,0,.2) 0 0 40px; border: 0px solid #fff; border-radius:0px; padding:40px; position:relative; overflow:hidden;}
+.chooseBox{background:#27187E; background-size: auto 85%; box-shadow: rgba(0,0,0,.2) 0 0 40px; border: 0px solid #fff; border-radius:0px; padding:40px; position:relative; overflow:hidden;}
 ul.listing{list-style:none;}
 ul.listing li{font-size:17px; line-height:1.4em; padding-bottom:15px;  position:relative; padding-left:30px;}
 ul.listing li::before{ content: "\f00c";position: absolute;left: 0; top: 0; font-family:FontAwesome; font-size:20px;color:#27187E;}

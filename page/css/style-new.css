@@ -44,7 +44,7 @@ ol, ul{margin:0;}
 .nav ul{padding:0px;}
 .nav ul li{float:left; list-style:none; /*background:url(../images/seprater.png) no-repeat right top;*/ font-szie:15px; padding-right:0px; position:relative; border-right:0px solid #000027;}
 .nav ul li:last-child{background:none; border-right:0px;}
-.nav ul li a{display:block; outline: none !important; font-size:15px; font-weight:700; padding:18px 33px 18px 34px; color:#28197e; text-decoration:none; text-transform:uppercase; letter-spacing:1px;}
+.nav ul li a{display:block; outline: none !important; font-size:15px; font-weight:700; padding:18px 33px 18px 33px; color:#28197e; text-decoration:none; text-transform:uppercase; letter-spacing:1px;}
 .nav ul li a:hover,  .nav ul li:hover{color:#fff;}.nav ul li:hover{border-right:0px solid #055ca8;}
 .nav .current_page_item > a{color:#fff;}
 .nav ul li ul{display:none; position:absolute; left:0px; top:54px; background:#AEB8FE; width:275px; z-index:99999;}
@@ -78,7 +78,7 @@ ol, ul{margin:0;}
 .footer{background:#27187d; padding:50px 30px; color:#fff; clear:both;}
 .footer li{padding-bottom:7px;}
 .footer a, .footer h4, .con-list a{color:#fff;text-decoration:none; font-size:18px;}
-.footer li a:hover, .footer a:hover, .footer a:hover .fa, .con-list a:hover .fa{color:#ff8600; border-color:#ff8600;}
+.footer li a:hover, .footer a:hover, .footer a:hover .fa, .con-list a:hover .fa, .con-list a:hover{color:#ff8600; border-color:#ff8600;}
 .con-list{padding-left:65px;}
 .con-list li{padding-bottom:35px;}
 .footer .fa, .con-list .fa{font-size: 24px; border: 2px solid #fff;border-radius: 7px;padding:4px 6px 0px 6px;line-height: 1.1em;min-width: 40px;min-height:40px;text-align: center; margin-right:10px; color:#fff;}
@@ -291,8 +291,10 @@ ul.listing li::before{ content: "\f00c";position: absolute;left: 0; top: 0; font
 .reviewBox .name{text-transform:uppercase; font-size:15px; color:#fff; letter-spacing:6px;}
 .helpSec{background:#f1f2f6 url("../images/hand-shake.png") no-repeat center 0%; padding:320px 0 0; position:relative; background-size: contain!important;}
 .blueSection{background:#aeb8fe;}
+.darkSection{background:#27187d;}
 .inner-banner{background:url(../images/service-banner.jpg) no-repeat center center; background-size:cover; text-align:center; min-height:300px; position:relative; display:flex; align-items:center;}
 .inner-banner.donate{background-image:url(../images/donate-banner.jpg);}
+.inner-banner.contact{background-image:url(../images/contact-banner.jpg);}
 .inner-banner::before{content:""; background:rgba(0,0,0,.6); display:block; width:100%; height:100%; position:absolute; left:0; top:0;}
 .inner-banner h1{font-size:70px; font-weight:700; text-transform:uppercase; color:#fff; letter-spacing:2px; margin-bottom:0;}
 .shadeBox{ margin-top:60px;}
@@ -309,6 +311,13 @@ ul.listing li::before{ content: "\f00c";position: absolute;left: 0; top: 0; font
 .formBox .btn{background:#2a99da; width:200px; padding:13px; color:#fff; border:0;}
 .formBox p{padding: 3px 0!important;color: #358bd6;}
 .donBtn{background: #27187E !important;color: #fff !important;padding: 24px 20px !important;min-width: 116px;text-align: center;border: 0px !important;font: bold 19px Nunito !important; margin:3px;}
+
+.formBox1{background:#fff; box-shadow:0px 0px 30px 0px rgba(0,0,0,.1); padding:30px 0 0; border-radius:10px; margin-top:30px;}
+.formBox1 iframe{width:100%!important;}
+.hide, .spanish{display: none;}
+
+
+
 @media screen and (max-width: 2500px) {
 .helpSec{padding:470px 0 0;}
 }
@@ -404,6 +413,10 @@ ul.listing li::before{ content: "\f00c";position: absolute;left: 0; top: 0; font
 	.shadeBox h2{font-size:26px;}
 	.width40, .width50, .width60, .width65, .width70, .width80, .width90{width:auto;}
 	.shadeBox img{max-height:250px!important; height:250px!important; min-height:250px!important;}
+	.contactDet{padding:20px 0;}
+	.contactDet h1{font-size:24px; padding-bottom:20px;}
+	.contactDet .con-list li{padding-bottom:20px!important;}
+	.contactDet .fa-map-marker{float:left;}
 	}
 	@media screen and (max-width: 567px) {
 	.col-6{width:auto; float:none; margin-bottom:10px;}

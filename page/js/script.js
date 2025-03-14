@@ -1,4 +1,7 @@
-$(document).ready(function() { 
+//$.noConflict();
+
+//$.noConflict();
+jQuery(document).ready(function(){
 						   
 function handleResize() {
         const $element = $('.nav');
@@ -16,27 +19,29 @@ function handleResize() {
         handleResize();
       });					   
 						   
+					   
 						   
-						   
-$(".menu-bar").click(function(){
+jQuery(".menu-bar").click(function(){
     $(".nav div.menu, .overlay").toggle(400);
 });
-$(".menu .fa-bars").click(function(){
+jQuery(".menu .fa-bars").click(function(){
     $(".nav div.menu, .overlay").toggle(400);
 });
 
-$(".popup .closeBtn").click(function(){
+jQuery(".popup .closeBtn").click(function(){
     $(".popup").hide(100);
 });
 
 
-$(".mobile ul li a.dmenu").click( function ( e ){ 
+jQuery(".mobile ul li a.dmenu").click( function ( e ){ 
    e.preventDefault()
    $( this ).parent().find( ".sub-menu" ).toggle(500).toggleClass("hidden", 500) } )
 
 
 
-
+ jQuery(".checkBox input").click(function(){
+    $(".formBox").slideToggle();
+  });
 
 
 });

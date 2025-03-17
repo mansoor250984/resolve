@@ -199,6 +199,7 @@ blockquote span{display:block; color:#09F; font:normal 14px/18px 'Nunito', Arial
 	.col-7 p{line-height:26px; font-size:15px;}
 	
 	.lightBg{background:#F1F2F6;}
+	.blueBg{background:#758afd;}
 	.whiteBg{background:#fff; padding:20px 0;}
 	.lh2{font-size:42px!important; padding-bottom:30px; color:#4c5a89;}
 	.serviceBox{display:flex; flex-wrap:wrap;}
@@ -295,6 +296,7 @@ ul.listing li::before{ content: "\f00c";position: absolute;left: 0; top: 0; font
 .inner-banner{background:url(../images/service-banner.jpg) no-repeat center center; background-size:cover; text-align:center; min-height:300px; position:relative; display:flex; align-items:center;}
 .inner-banner.donate{background-image:url(../images/donate-banner.jpg);}
 .inner-banner.contact{background-image:url(../images/contact-banner.jpg);}
+.inner-banner.k3{background-image:url(../images/k3-banner.jpg);}
 .inner-banner::before{content:""; background:rgba(0,0,0,.6); display:block; width:100%; height:100%; position:absolute; left:0; top:0;}
 .inner-banner h1{font-size:70px; font-weight:700; text-transform:uppercase; color:#fff; letter-spacing:2px; margin-bottom:0;}
 .shadeBox{ margin-top:60px;}
@@ -316,7 +318,10 @@ ul.listing li::before{ content: "\f00c";position: absolute;left: 0; top: 0; font
 .formBox1 iframe{width:100%!important;}
 .hide, .spanish{display: none;}
 
-
+.boxTbl{border-collapse: collapse; border:0px solid #ededed!important;max-width:750px; margin:1px auto 0!important; box-shadow:rgba(0,0,0,.1) 0 0 30px; width:100%;}
+.boxTbl td, .boxTbl th{border:0px solid #0068a4!important; padding:40px 20px; vertical-align:middle;}
+.boxTbl th{font-size:30px; font-family:"Times New Roman", Times, serif; background:#27187e; color:#fff; width:34%; }
+.boxTbl td{font-size:24px; color:#000;line-height: 1.6em; background:#fff;}
 
 @media screen and (max-width: 2500px) {
 .helpSec{padding:470px 0 0;}
@@ -365,6 +370,13 @@ ul.listing li::before{ content: "\f00c";position: absolute;left: 0; top: 0; font
 #owl-demo .owl-buttons .owl-prev, #owl-demo .owl-buttons .owl-next{display:inline-block;} 
 #owl-demo .owl-buttons .owl-prev:hover, #owl-demo .owl-buttons .owl-next:hover{color:#ff8600;}
 #owl-demo .owl-buttons .owl-next{left: 180px; position: relative;}
+.k3-1, .k3-2{position:relative;}
+.k3-1::before{background:url(../images/k-3-1.png) no-repeat 0 0!important; content:""; position:absolute; right:0; bottom:10%; width:298px; height:271px; }
+.k3-1::after{background:url(../images/bubble.png) no-repeat 0 0; content:""; position:absolute; left:0; bottom:-30px; width:250px; height:260px;}
+
+.k3-2::after{background:url(../images/k-3-2.png) no-repeat 0 0!important; content:""; position:absolute; right:0; bottom:10%; width:328px; height:275px; }
+
+.k3-2::before{background:url(../images/k-3-3.png) no-repeat 0 0!important; content:""; position:absolute; left:0; bottom:20%; width:294px; height:326px; }
 
 @media screen and (max-width: 1024px) {
 .nav ul li a{color:#28197e; font-size:13px;}
@@ -408,7 +420,7 @@ ul.listing li::before{ content: "\f00c";position: absolute;left: 0; top: 0; font
 	#owl-demo .owl-buttons{color:#fff;}
 	.owl-theme .owl-controls .owl-page span{background:#fff;}
 	.inner-banner{min-height:200px;}
-	.inner-banner h1{font-size:40px; letter-spacing:2px;}
+	.inner-banner h1{font-size:30px; letter-spacing:1px;}
 	.shadeBox{margin:10px 0;}
 	.shadeBox h2{font-size:26px;}
 	.width40, .width50, .width60, .width65, .width70, .width80, .width90{width:auto;}
@@ -417,6 +429,12 @@ ul.listing li::before{ content: "\f00c";position: absolute;left: 0; top: 0; font
 	.contactDet h1{font-size:24px; padding-bottom:20px;}
 	.contactDet .con-list li{padding-bottom:20px!important;}
 	.contactDet .fa-map-marker{float:left;}
+	.boxTbl td, .boxTbl th{display:block; width:auto; text-align:left; padding:25px 15px; font-size:18px;}
+	.boxTbl th{font-size:28px;}
+	.boxTbl{margin-bottom:20px!important;} .sp{font-size:20px!important;}
+	.k3-1::before{position: relative;display: block;margin: 0px 0 0 auto;top: 20px;}
+	.k3-1::after, .k3-2::after, .k3-2::before{display:none;}
+	.k3-1 h4{font-size:27px!important; padding-bottom:50px;}
 	}
 	@media screen and (max-width: 567px) {
 	.col-6{width:auto; float:none; margin-bottom:10px;}

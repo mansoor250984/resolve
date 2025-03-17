@@ -321,7 +321,7 @@ ul.listing li::before{ content: "\f00c";position: absolute;left: 0; top: 0; font
 .boxTbl{border-collapse: collapse; border:0px solid #ededed!important;max-width:750px; margin:1px auto 0!important; box-shadow:rgba(0,0,0,.1) 0 0 30px; width:100%;}
 .boxTbl td, .boxTbl th{border:0px solid #0068a4!important; padding:40px 20px; vertical-align:middle;}
 .boxTbl th{font-size:30px; font-family:"Times New Roman", Times, serif; background:#27187e; color:#fff; width:34%; }
-.boxTbl td{font-size:24px; color:#000;line-height: 1.6em; background:#fff;}
+.boxTbl td{font-size:24px; color:#27187E;line-height: 1.6em; background:#fff;}
 
 @media screen and (max-width: 2500px) {
 .helpSec{padding:470px 0 0;}

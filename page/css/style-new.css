@@ -44,7 +44,7 @@ ol, ul{margin:0;}
 .nav ul{padding:0px;}
 .nav ul li{float:left; list-style:none; /*background:url(../images/seprater.png) no-repeat right top;*/ font-szie:15px; padding-right:0px; position:relative; border-right:0px solid #000027;}
 .nav ul li:last-child{background:none; border-right:0px;}
-.nav ul li a{display:block; outline: none !important; font-size:15px; font-weight:700; padding:18px 33px 18px 33px; color:#28197e; text-decoration:none; text-transform:uppercase; letter-spacing:1px;}
+.nav ul li a{display:block; outline: none !important; font-size:15px; font-weight:700; padding:18px 26px 18px 26px; color:#28197e; text-decoration:none; text-transform:uppercase; letter-spacing:1px;}
 .nav ul li a:hover,  .nav ul li:hover{color:#fff;}.nav ul li:hover{border-right:0px solid #055ca8;}
 .nav .current_page_item > a{color:#fff;}
 .nav ul li ul{display:none; position:absolute; left:0px; top:54px; background:#AEB8FE; width:275px; z-index:99999;}
@@ -53,7 +53,8 @@ ol, ul{margin:0;}
 .nav ul li ul li:hover{border-right:0px;}
 .nav ul li ul li a:hover{color:#fff;}
 .nav ul li:hover ul{display:block;}
-
+.fixed{position: fixed;top:0; left:0; width: 100%; z-index:9999999; box-shadow: rgba(0,0,0,.15) 0 0 20px;
+border-bottom: 1px solid #cfd4f9;}
 .pagetitle{background:#eef9ff; border-bottom:1px solid #cfeaf9; padding:20px 30px; text-shadow:#fff 1px 1px; overflow:hidden;}
 .pagetitle img{box-shadow:none;}
 .container{padding:40px 0px 40px; }
@@ -241,7 +242,7 @@ blockquote span{display:block; color:#09F; font:normal 14px/18px 'Nunito', Arial
   left: 0;
   top: 0;
   width: 100%;
-  height: 394px;
+  height: 377px;
   background:#AEB8FE;
     background-size: auto;
   z-index: 0;
@@ -280,10 +281,10 @@ ul.listing li::before{ content: "\f00c";position: absolute;left: 0; top: 0; font
   position: absolute;
   left: 0;
   top: 0;
-  background: rgba(39,24,126,.9);
+  background: rgba(39,24,126,0);
 }
 
-
+.resolveVideo span{display:block; background:#aeb8fe; padding:10px; margin-top: -6px;}
 
 .whiteBg p{color:#000;}
 .chooseBox li{color:#fff; position:relative;}	
@@ -300,6 +301,7 @@ ul.listing li::before{ content: "\f00c";position: absolute;left: 0; top: 0; font
 .inner-banner.teen{background-image:url(../images/teen-banner.jpg);}
 .inner-banner.time-management{background-image:url(../images/time-management-banner.jpg);}
 .inner-banner.depression{background-image:url(../images/depression-banner.jpg);}
+.inner-banner.workshop{background-image:url(../images/workshop-banner.jpg);}
 .inner-banner::before{content:""; background:rgba(0,0,0,.6); display:block; width:100%; height:100%; position:absolute; left:0; top:0;}
 .inner-banner h1{font-size:65px; font-weight:700; text-transform:uppercase; color:#fff; letter-spacing:2px; margin-bottom:0;}
 .shadeBox{ margin-top:60px;}
@@ -325,7 +327,8 @@ ul.listing li::before{ content: "\f00c";position: absolute;left: 0; top: 0; font
 .boxTbl td, .boxTbl th{border:0px solid #0068a4!important; padding:40px 20px; vertical-align:middle;}
 .boxTbl th{font-size:30px; font-family:"Times New Roman", Times, serif; background:#27187e; color:#fff; width:34%; text-align:center;}
 .boxTbl td{font-size:24px; color:#27187E;line-height: 1.6em; background:#fff;}
-
+.whiteBox{padding-top:60px;}
+.whiteBox .shadeBox{ margin-top:0px;}
 @media screen and (max-width: 2500px) {
 .helpSec{padding:470px 0 0;}
 }
@@ -428,6 +431,8 @@ ul.listing li::before{ content: "\f00c";position: absolute;left: 0; top: 0; font
 	.owl-theme .owl-controls .owl-page span{background:#fff;}
 	.inner-banner{min-height:200px;}
 	.inner-banner h1{font-size:30px; letter-spacing:1px;}
+	
+	.whiteBox{padding-top:0px;}
 	.shadeBox{margin:10px 0;}
 	.shadeBox h2{font-size:26px;}
 	.width40, .width50, .width60, .width65, .width70, .width80, .width90{width:auto;}

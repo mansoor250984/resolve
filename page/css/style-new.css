@@ -302,6 +302,7 @@ ul.listing li::before{ content: "\f00c";position: absolute;left: 0; top: 0; font
 .inner-banner.time-management{background-image:url(../images/time-management-banner.jpg);}
 .inner-banner.depression{background-image:url(../images/depression-banner.jpg);}
 .inner-banner.workshop{background-image:url(../images/workshop-banner.jpg);}
+.inner-banner.mission{background-image:url(../images/mission-banner.jpg);}
 .inner-banner::before{content:""; background:rgba(0,0,0,.6); display:block; width:100%; height:100%; position:absolute; left:0; top:0;}
 .inner-banner h1{font-size:65px; font-weight:700; text-transform:uppercase; color:#fff; letter-spacing:2px; margin-bottom:0;}
 .shadeBox{ margin-top:60px;}

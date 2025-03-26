@@ -37,7 +37,13 @@ jQuery(".mobile ul li a.dmenu").click( function ( e ){
    e.preventDefault()
    $( this ).parent().find( ".sub-menu" ).toggle(500).toggleClass("hidden", 500) } )
 
+jQuery(".toggle").click(function(){
+    $(".toggText, .toggle").slideToggle(400);
+});
 
+jQuery(".toggle1").click(function(){
+    $(".toggText1, .toggle1").slideToggle(400);
+});
 
  jQuery(".checkBox input").click(function(){
     $(".formBox").slideToggle();

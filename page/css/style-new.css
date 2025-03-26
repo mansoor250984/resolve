@@ -193,10 +193,16 @@ blockquote span{display:block; color:#09F; font:normal 14px/18px 'Nunito', Arial
 	.row h2{font-size:24px; line-height:24px;}
 	.row h2 span{display:block; font-style:italic; font-size:16px; color:#666; font-weight:600;}
 	.staff-list{list-style:none;display:flex; flex-wrap:wrap; justify-content: center;}
-	.staff-list li{box-sizing: border-box; flex:0 0 33%; max-width:33%; padding:20px 30px; list-style:none; margin:0; text-align:center;}
-	.staff-list li h4{font-size:17px;}
-	.staff-list li span{line-height:20px; display:block; font-size:15px; color:#444; font-style:italic;}
-	.staff-list li img{border-radius:20px 20px 130px 130px;}
+	.staff-list li{box-sizing: border-box; flex:0 0 32%; max-width:32%; padding:30px 40px; list-style:none; margin:0; text-align:center; background:#fff; box-shadow: rgba(0,0,0,.1) 0 0 10px; margin:5px; position:relative;}
+
+	.staff-list li h4{font:bold 20px "Playfair Display" !important; position:relative;  color:#fff; padding:15px 20px; margin:0;   background: #27187E;
+  border-radius: 0px 0 10px 10px;
+  min-width: 100%;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}}
+	.staff-list li span{line-height:20px; display:block; font-size:17px; color:#000; position:relative;}
+	.staff-list li img{border-radius:10px 10px 0 0; position:relative;}
 	.col-7 p{line-height:26px; font-size:15px;}
 	
 	.lightBg{background:#F1F2F6;}
@@ -303,6 +309,7 @@ ul.listing li::before{ content: "\f00c";position: absolute;left: 0; top: 0; font
 .inner-banner.depression{background-image:url(../images/depression-banner.jpg);}
 .inner-banner.workshop{background-image:url(../images/workshop-banner.jpg);}
 .inner-banner.mission{background-image:url(../images/mission-banner.jpg);}
+.inner-banner.staff{background-image:url(../images/staff-banner.jpg);}
 .inner-banner::before{content:""; background:rgba(0,0,0,.6); display:block; width:100%; height:100%; position:absolute; left:0; top:0;}
 .inner-banner h1{font-size:65px; font-weight:700; text-transform:uppercase; color:#fff; letter-spacing:2px; margin-bottom:0;}
 .shadeBox{ margin-top:60px;}
@@ -406,6 +413,9 @@ ul.listing li::before{ content: "\f00c";position: absolute;left: 0; top: 0; font
 .hRight .memberDet h3::before{right: inherit; left:-15px;}
 .hRight .memberDet h3{background:#758BFD;}
 .hRight .memberDet h3::after{left: -20px; right: inherit;}
+.hr{width:100%; margin: 20px 0 10px; border-color:#aeb8fe;}
+.lidia{background:url(../images/lidia-d-abrams1.jpg) no-repeat center center; background-size:cover; min-height:400px;}
+.debra{background:url(../images/debra-ferro.jpg) no-repeat center center; background-size:cover; min-height:400px;}
 
 @media screen and (max-width: 1024px) {
 .nav ul li a{color:#28197e; font-size:13px;}
@@ -481,7 +491,7 @@ ul.listing li::before{ content: "\f00c";position: absolute;left: 0; top: 0; font
 	@media screen and (max-width: 567px) {
 	.col-6{width:auto; float:none; margin-bottom:10px;}
 	.row{padding: 0 0;}
-	.staff-list li{flex:0 0 100%; max-width:100%;}
+	.staff-list li{flex:0 0 94%; max-width:100%; padding: 20px 20px;}
 	
 	}
 	@media screen and (max-width: 480px) {

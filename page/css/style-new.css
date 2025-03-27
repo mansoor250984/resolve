@@ -487,7 +487,8 @@ ul.listing li::before{ content: "\f00c";position: absolute;left: 0; top: 0; font
 	.memberPic img{border:2px solid #aeb8fe; padding:10px; width:250px; height:250px;}
 	.hRight .memberDet{order:2; padding-left:0; border:0;}
 	.teamBox{padding:15px 0;}
-	.header{position: fixed;width: 100%;top: 0;left: 0;z-index: 9999;}
+	.header{min-height:60px;}
+	.header .container{position: fixed;width: 100%;top: 0;left: 0;z-index: 990; background:#fff; padding:10px!important; min-height:60px; box-shadow:rgba(0,0,0,.1) 0 0 20px;}
 	}
 	@media screen and (max-width: 567px) {
 	.col-6{width:auto; float:none; margin-bottom:10px;}

@@ -2,6 +2,17 @@
 
 //$.noConflict();
 jQuery(document).ready(function(){
+								
+								
+jQuery(".toggle").click(function(){
+    $(".toggText, .toggle").slideToggle(400);
+});
+
+jQuery(".toggle1").click(function(){
+    $(".toggText1, .toggle1").slideToggle(400);
+});
+
+								
 						   
 function handleResize() {
         const $element = $('.nav');
@@ -47,6 +58,8 @@ jQuery(".mobile ul li a.dmenu").click( function ( e ){
 });
 
 
+
+
 jQuery(window).scroll(function(){
   var sticky = $('.sticky'),
       scroll = $(window).scrollTop();
@@ -56,10 +69,3 @@ jQuery(window).scroll(function(){
 });
 
 
-jQuery(".toggle").click(function(){
-    $(".toggText, .toggle").slideToggle(400);
-});
-
-jQuery(".toggle1").click(function(){
-    $(".toggText1, .toggle1").slideToggle(400);
-});
